@@ -289,6 +289,7 @@ scheduler.add_job(send_daily_news, "interval", hours=24)  # Раз в сутки
 
 # Запуск бота
 async def main():
+    scheduler.start()
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
 
