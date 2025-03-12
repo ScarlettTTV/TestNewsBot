@@ -6,4 +6,4 @@ TOKEN является уникальным токеном Telegram бота, н
 
 Для быстрого развертывания приложения можно использовать Docker, предварительно создав на машине .env с переменными окружения.
 
-docker run -d --restart unless-stopped --name telegram-bot --env-file .env lomakomikhail/telegram-bot
+
