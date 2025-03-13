@@ -14,7 +14,7 @@ services:
     environment:
       POSTGRES_DB: news_bot
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: пароль БД
+      POSTGRES_PASSWORD: РїР°СЂРѕР»СЊ Р”Р‘
     ports:
       - "5432:5432"
     volumes:
